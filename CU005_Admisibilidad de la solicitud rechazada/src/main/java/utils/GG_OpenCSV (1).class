@@ -1,0 +1,52 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package main.java.utils;
+
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
+
+public class GG_OpenCSV {
+   public GG_OpenCSV() {
+   }
+
+   public static Object[][] getCSVParameters(String nombreCSV, int columnas) throws IOException, CsvValidationException {
+      List<Object> data = new ArrayList();
+      InputStream is = GG_OpenCSV.class.getClassLoader().getResourceAsStream("data/" + nombreCSV);
+      if (is == null) {
+         throw new FileNotFoundException("No se encontro el archivo: data/" + nombreCSV);
+      } else {
+         CSVReader reader = new CSVReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+
+         try {
+            reader.readNext();
+
+            String[] line;
+            while((line = reader.readNext()) != null) {
+               if (line.length >= columnas) {
+                  String[] trimmed = new String[columnas];
+                  System.arraycopy(line, 0, trimmed, 0, columnas);
+                  data.add(trimmed);
+               }
+            }
+         } catch (Throwable var8) {
+            try {
+               reader.close();
+            } catch (Throwable var7) {
+               var8.addSuppressed(var7);
+            }
+
+            throw var8;
+         }
+
+         reader.close();
+         Object[][] dataArray = new Object[data.size()][];
+         return (Object[][])data.toArray(dataArray);
+      }
+   }
+}

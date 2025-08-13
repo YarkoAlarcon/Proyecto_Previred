@@ -1,0 +1,12 @@
+main\java\utils\GG_Eventos.class
+main\java\pageEvents\Revisar_Bitacora.class
+main\java\utils\GG_Utils.class
+main\java\utils\GG_ElementFetch.class
+main\java\utils\CC_Parametros.class
+main\java\utils\GG_Validations.class
+test\java\previred\CU009_Revisar_Bitacora.class
+main\java\pageObjects\CC_Localizadores_Revisar_Bitacora.class
+test\java\previred\CC_Test.class
+main\java\utils\GG_SuiteListener.class
+main\java\utils\GG_OpenCSV.class
+resource\java\GG_BaseTest.class

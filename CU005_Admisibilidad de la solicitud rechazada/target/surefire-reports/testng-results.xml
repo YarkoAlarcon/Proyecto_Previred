@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T22:50:24 CLT" name="Sample Test Suite" finished-at="2025-08-11T22:55:04 CLT" duration-ms="280053">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T22:50:24 CLT" name="Test Automation" finished-at="2025-08-11T22:55:04 CLT" duration-ms="280053">
+      <class name="test.java.previred.CC_Test">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.java.previred.CC_Test@243c4f91]" started-at="2025-08-11T22:50:24 CLT" name="setupReport" finished-at="2025-08-11T22:50:24 CLT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="finalizeReport()[pri:0, instance:test.java.previred.CC_Test@243c4f91]" started-at="2025-08-11T22:55:04 CLT" name="finalizeReport" finished-at="2025-08-11T22:55:04 CLT" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeReport -->
+      </class> <!-- test.java.previred.CC_Test -->
+      <class name="test.java.previred.CU005_Admisibilidad_solicitud_rechazada">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb]" started-at="2025-08-11T22:50:24 CLT" name="setupDriver" finished-at="2025-08-11T22:50:32 CLT" duration-ms="7905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU005_Admisibilidad_solicitud_rechazada.Flujo_Sagcom(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb]" started-at="2025-08-11T22:50:32 CLT" name="Flujo_Sagcom" data-provider="Data" finished-at="2025-08-11T22:54:13 CLT" duration-ms="220375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@26dc9bd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb]" started-at="2025-08-11T22:54:14 CLT" name="tearDown" finished-at="2025-08-11T22:54:14 CLT" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom status=SUCCESS method=CU005_Admisibilidad_solicitud_rechazada.Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb]" started-at="2025-08-11T22:54:14 CLT" name="setupDriver" finished-at="2025-08-11T22:54:18 CLT" duration-ms="3801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU005_Admisibilidad_solicitud_rechazada.Flujo_Sagcom_Administrativo(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb]" started-at="2025-08-11T22:54:18 CLT" name="Flujo_Sagcom_Administrativo" data-provider="Data1" finished-at="2025-08-11T22:55:04 CLT" duration-ms="45467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7ff35a3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Administrativo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb]" started-at="2025-08-11T22:55:04 CLT" name="tearDown" finished-at="2025-08-11T22:55:04 CLT" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Administrativo status=SUCCESS method=CU005_Admisibilidad_solicitud_rechazada.Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU005_Admisibilidad_solicitud_rechazada@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.previred.CU005_Admisibilidad_solicitud_rechazada -->
+    </test> <!-- Test Automation -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>

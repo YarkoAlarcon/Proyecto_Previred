@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T23:15:54 CLT" name="Sample Test Suite" finished-at="2025-08-11T23:24:43 CLT" duration-ms="529686">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T23:15:54 CLT" name="Test Automation" finished-at="2025-08-11T23:24:43 CLT" duration-ms="529686">
+      <class name="test.java.previred.CC_Test">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.java.previred.CC_Test@16ec5519]" started-at="2025-08-11T23:15:54 CLT" name="setupReport" finished-at="2025-08-11T23:15:54 CLT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="finalizeReport()[pri:0, instance:test.java.previred.CC_Test@16ec5519]" started-at="2025-08-11T23:24:43 CLT" name="finalizeReport" finished-at="2025-08-11T23:24:43 CLT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeReport -->
+      </class> <!-- test.java.previred.CC_Test -->
+      <class name="test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:15:54 CLT" name="setupDriver" finished-at="2025-08-11T23:15:58 CLT" duration-ms="4038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:15:58 CLT" name="Flujo_Sagcom" data-provider="Data" finished-at="2025-08-11T23:18:41 CLT" duration-ms="163234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3b920bdc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:18:41 CLT" name="tearDown" finished-at="2025-08-11T23:18:42 CLT" duration-ms="745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom status=SUCCESS method=CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:18:42 CLT" name="setupDriver" finished-at="2025-08-11T23:18:46 CLT" duration-ms="3718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom_Administrativo(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:18:46 CLT" name="Flujo_Sagcom_Administrativo" data-provider="Data1" finished-at="2025-08-11T23:20:53 CLT" duration-ms="127583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7f5538a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Administrativo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:20:53 CLT" name="tearDown" finished-at="2025-08-11T23:20:54 CLT" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Administrativo status=SUCCESS method=CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:20:54 CLT" name="setupDriver" finished-at="2025-08-11T23:20:56 CLT" duration-ms="2575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom_Medico(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Medico([Ljava.lang.String;)[pri:3, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:20:56 CLT" name="Flujo_Sagcom_Medico" data-provider="Data2" finished-at="2025-08-11T23:22:18 CLT" duration-ms="81370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@72fd8a3c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Medico -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:22:18 CLT" name="tearDown" finished-at="2025-08-11T23:22:18 CLT" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Medico status=SUCCESS method=CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom_Medico([Ljava.lang.String;)[pri:3, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:22:18 CLT" name="setupDriver" finished-at="2025-08-11T23:22:21 CLT" duration-ms="2917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom_Administrativo1(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Administrativo1([Ljava.lang.String;)[pri:4, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:22:21 CLT" name="Flujo_Sagcom_Administrativo1" data-provider="Data3" finished-at="2025-08-11T23:24:43 CLT" duration-ms="141730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1f9f381d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Administrativo1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3]" started-at="2025-08-11T23:24:43 CLT" name="tearDown" finished-at="2025-08-11T23:24:43 CLT" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Administrativo1 status=SUCCESS method=CU006_Fallecimiento_beneficiario_durante_proceso.Flujo_Sagcom_Administrativo1([Ljava.lang.String;)[pri:4, instance:test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso@333291e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.previred.CU006_Fallecimiento_beneficiario_durante_proceso -->
+    </test> <!-- Test Automation -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>

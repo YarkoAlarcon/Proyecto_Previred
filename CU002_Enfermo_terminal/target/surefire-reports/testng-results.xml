@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-11T22:22:55 CLT" name="Sample Test Suite" finished-at="2025-08-11T22:29:58 CLT" duration-ms="423133">
+    <groups>
+    </groups>
+    <test started-at="2025-08-11T22:22:55 CLT" name="Test Automation" finished-at="2025-08-11T22:29:58 CLT" duration-ms="423133">
+      <class name="test.java.previred.CC_Test">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.java.previred.CC_Test@5c5eefef]" started-at="2025-08-11T22:22:55 CLT" name="setupReport" finished-at="2025-08-11T22:22:55 CLT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="finalizeReport()[pri:0, instance:test.java.previred.CC_Test@5c5eefef]" started-at="2025-08-11T22:29:58 CLT" name="finalizeReport" finished-at="2025-08-11T22:29:58 CLT" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeReport -->
+      </class> <!-- test.java.previred.CC_Test -->
+      <class name="test.java.previred.CU002_Enfermo_terminal">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:22:55 CLT" name="setupDriver" finished-at="2025-08-11T22:23:04 CLT" duration-ms="8673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU002_Enfermo_terminal.Flujo_Sagcom(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:23:04 CLT" name="Flujo_Sagcom" data-provider="Data" finished-at="2025-08-11T22:24:13 CLT" duration-ms="68745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@37baddde]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:24:13 CLT" name="tearDown" finished-at="2025-08-11T22:24:13 CLT" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom status=SUCCESS method=CU002_Enfermo_terminal.Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:24:13 CLT" name="setupDriver" finished-at="2025-08-11T22:24:20 CLT" duration-ms="7758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU002_Enfermo_terminal.Flujo_Sagcom_Administrativo(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:24:20 CLT" name="Flujo_Sagcom_Administrativo" data-provider="Data1" finished-at="2025-08-11T22:26:23 CLT" duration-ms="122381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7af3874e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Administrativo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:26:23 CLT" name="tearDown" finished-at="2025-08-11T22:26:23 CLT" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Administrativo status=SUCCESS method=CU002_Enfermo_terminal.Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:26:23 CLT" name="setupDriver" finished-at="2025-08-11T22:26:32 CLT" duration-ms="8641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU002_Enfermo_terminal.Flujo_Sagcom_Medico(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Medico([Ljava.lang.String;)[pri:3, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:26:32 CLT" name="Flujo_Sagcom_Medico" data-provider="Data2" finished-at="2025-08-11T22:27:56 CLT" duration-ms="84462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5a8816cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Medico -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:27:56 CLT" name="tearDown" finished-at="2025-08-11T22:27:56 CLT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Medico status=SUCCESS method=CU002_Enfermo_terminal.Flujo_Sagcom_Medico([Ljava.lang.String;)[pri:3, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:27:56 CLT" name="setupDriver" finished-at="2025-08-11T22:28:04 CLT" duration-ms="7742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU002_Enfermo_terminal.Flujo_Sagcom_Administrativo1(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Administrativo1([Ljava.lang.String;)[pri:4, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:28:04 CLT" name="Flujo_Sagcom_Administrativo1" data-provider="Data3" finished-at="2025-08-11T22:29:57 CLT" duration-ms="113534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@68565bc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Administrativo1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40]" started-at="2025-08-11T22:29:58 CLT" name="tearDown" finished-at="2025-08-11T22:29:58 CLT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Administrativo1 status=SUCCESS method=CU002_Enfermo_terminal.Flujo_Sagcom_Administrativo1([Ljava.lang.String;)[pri:4, instance:test.java.previred.CU002_Enfermo_terminal@74fe5c40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.previred.CU002_Enfermo_terminal -->
+    </test> <!-- Test Automation -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T07:39:04 CLT" name="Sample Test Suite" finished-at="2025-08-12T07:44:08 CLT" duration-ms="304082">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T07:39:04 CLT" name="Test Automation" finished-at="2025-08-12T07:44:08 CLT" duration-ms="304082">
+      <class name="test.java.previred.CC_Test">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.java.previred.CC_Test@61df66b6]" started-at="2025-08-12T07:39:04 CLT" name="setupReport" finished-at="2025-08-12T07:39:04 CLT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="finalizeReport()[pri:0, instance:test.java.previred.CC_Test@61df66b6]" started-at="2025-08-12T07:44:07 CLT" name="finalizeReport" finished-at="2025-08-12T07:44:08 CLT" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeReport -->
+      </class> <!-- test.java.previred.CC_Test -->
+      <class name="test.java.previred.CU009_Revisar_Bitacora">
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:39:04 CLT" name="setupDriver" finished-at="2025-08-12T07:39:09 CLT" duration-ms="4706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU009_Revisar_Bitacora.Flujo_Sagcom(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:39:09 CLT" name="Flujo_Sagcom" data-provider="Data" finished-at="2025-08-12T07:40:16 CLT" duration-ms="66819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@39a87e72]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:40:16 CLT" name="tearDown" finished-at="2025-08-12T07:40:16 CLT" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom status=SUCCESS method=CU009_Revisar_Bitacora.Flujo_Sagcom([Ljava.lang.String;)[pri:1, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:40:16 CLT" name="setupDriver" finished-at="2025-08-12T07:40:19 CLT" duration-ms="2615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU009_Revisar_Bitacora.Flujo_Sagcom_Administrativo(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:40:19 CLT" name="Flujo_Sagcom_Administrativo" data-provider="Data1" finished-at="2025-08-12T07:42:24 CLT" duration-ms="125663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@d5d5353]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Administrativo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:42:24 CLT" name="tearDown" finished-at="2025-08-12T07:42:25 CLT" duration-ms="391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Administrativo status=SUCCESS method=CU009_Revisar_Bitacora.Flujo_Sagcom_Administrativo([Ljava.lang.String;)[pri:2, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:42:25 CLT" name="setupDriver" finished-at="2025-08-12T07:42:28 CLT" duration-ms="3502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.java.previred.CU009_Revisar_Bitacora.Flujo_Sagcom_Medico(java.lang.String[]) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Flujo_Sagcom_Medico([Ljava.lang.String;)[pri:3, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:42:28 CLT" name="Flujo_Sagcom_Medico" data-provider="Data2" finished-at="2025-08-12T07:44:07 CLT" duration-ms="98559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@242b6e1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flujo_Sagcom_Medico -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8]" started-at="2025-08-12T07:44:07 CLT" name="tearDown" finished-at="2025-08-12T07:44:07 CLT" duration-ms="416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flujo_Sagcom_Medico status=SUCCESS method=CU009_Revisar_Bitacora.Flujo_Sagcom_Medico([Ljava.lang.String;)[pri:3, instance:test.java.previred.CU009_Revisar_Bitacora@1ab3a8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.previred.CU009_Revisar_Bitacora -->
+    </test> <!-- Test Automation -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>

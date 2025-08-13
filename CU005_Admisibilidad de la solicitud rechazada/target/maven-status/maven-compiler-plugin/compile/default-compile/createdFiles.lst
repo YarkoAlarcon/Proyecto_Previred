@@ -1,0 +1,13 @@
+main\java\pageEvents\Admisibilidad_solicitud.class
+main\java\utils\GG_Eventos.class
+main\java\utils\GG_Utils.class
+main\java\utils\GG_ElementFetch.class
+main\java\utils\CC_Parametros.class
+main\java\utils\GG_Validations.class
+main\java\pageObjects\CC_Localizadores_Enfermo_Terminal.class
+test\java\previred\CC_Test.class
+main\java\pageObjects\CC_Localizadores_Flujo_Sagcom.class
+main\java\utils\GG_SuiteListener.class
+test\java\previred\CU005_Admisibilidad_solicitud_rechazada.class
+main\java\utils\GG_OpenCSV.class
+resource\java\GG_BaseTest.class
